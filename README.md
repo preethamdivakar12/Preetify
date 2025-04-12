@@ -1,50 +1,49 @@
-# Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# 🎥 Preetify
+Preetify is my first video-sharing application built using React Native and Expo-AV, with Appwrite as the backend database. It’s a cross-platform mobile application designed to let users share their own videos along with thumbnails and descriptions, while also discovering content from others.
+
+# ✨ Features
+📸 Video Upload — Users can upload videos with a thumbnail and description.
+
+🎞️ Reels & Full Video View — Watch uploaded videos either as quick reels or full video playback.
+
+🔒 User Authentication — Secure signup and login screens to manage user access.
+
+❤️ Like Videos — Users can like videos uploaded by other creators.
+
+🎨 NativeWind for Styling — Clean, efficient, utility-first CSS-in-JS styling using NativeWind.
+
+📱 Cross-Platform — Compatible with both Android and iOS devices.
+
+# 🛠️ Tech Stack
+React Native
+
+Expo-AV (for video playback)
+
+Appwrite (for authentication and backend database)
+
+NativeWind (for styling)
+
+React Navigation (for navigating between screens)
+
+# 📷 App Preview
+![Untitled design](https://github.com/user-attachments/assets/55039586-d4d9-463b-a938-2d41803db398)
+![Untitled design2](https://github.com/user-attachments/assets/6401e88c-9a8d-46cb-a59b-5d9eb2677f60)
+
+
+
 
 ## Get started
 
-1. Install dependencies
+This is an project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-   ```bash
+1. Install dependencies
+ 
    npm install
-   ```
+
 
 2. Start the app
 
-   ```bash
     npx expo start
-   ```
 
-In the output, you'll find options to open the app in a
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
